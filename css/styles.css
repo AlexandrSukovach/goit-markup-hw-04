@@ -307,7 +307,7 @@ button {
    display: flex;
 }
 
-.team-img li {
+.team-img>li {
    background-color: var(--body-background-color);
    text-align: center;
    width: 270px;
@@ -316,7 +316,7 @@ button {
 
 }
 
-.team-img li:not(:last-child) {
+.team-img>li:not(:last-child) {
    margin-right: 30px;
 }
 
@@ -338,6 +338,43 @@ button {
 .team-img p {
    font-size: 16px;
    line-height: 1.19;
+   margin-bottom: 16px;
+}
+
+.social-media {
+   display: flex;
+
+}
+
+.social-media {
+   display: flex;
+   justify-content: center;
+}
+
+.logo-media a {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   width: 44px;
+   height: 44px;
+   color: #AFB1B8;
+   border-radius: 50%;
+   cursor: pointer;
+}
+
+.social-media li:not(:last-child) {
+   margin-right: 10px;
+}
+
+
+.logo-media a:hover,
+.logo-media a:focus {
+   background-color: var(--logo-background-color);
+   color: var(--body-background-color);
+}
+
+.media {
+   fill: currentColor;
 }
 
 /* ---------------footer------------ */
