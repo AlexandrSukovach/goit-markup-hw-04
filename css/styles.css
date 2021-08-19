@@ -9,7 +9,7 @@
    --button-back-color: #F5F4FA;
    --accent-footer-color: #FFFFFF99;
    --logo-background-click: #188CE8;
-   --section-bg-client: ;
+
 }
 
 /* -------переменные----------- */
@@ -525,6 +525,13 @@ footer {
 }
 
 /* -----------regular customers------- */
+.gallery-custom {
+   text-align: center;
+}
+
+.reg-custom-title {
+   margin-bottom: 50px;
+}
 
 .reg-custom-gallery {
    display: flex;
@@ -537,19 +544,25 @@ footer {
    margin-right: 30px;
 }
 
-.reg-custom-title {
-   margin-bottom: 50px;
-}
 
-.logo-client {
+.logo-client a {
+   display: flex;
+   justify-content: center;
+   align-items: center;
    width: 170px;
    height: 92px;
    border: 1px solid #AFB1B8;
+   color: #AFB1B8;
    border-radius: 4px;
+   cursor: pointer;
 }
 
-.logo-client:hover,
-.logo-client:focus {
-
+.logo-client a:hover,
+.logo-client a:focus {
    border: 1px solid var(--logo-background-click);
+   color: var(--logo-background-click);
+}
+
+.client {
+   fill: currentColor;
 }
