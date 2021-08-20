@@ -136,6 +136,16 @@ img {
    margin-left: auto;
 }
 
+.auth-nav svg {
+   margin-right: 10px;
+   fill: currentColor;
+}
+
+.auth-nav a {
+   display: flex;
+   align-items: center;
+   height: 50px;
+}
 
 .auth-nav li:not(:last-child) {
    margin-right: 50px;
