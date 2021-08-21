@@ -412,8 +412,8 @@ button {
 .button-menu:focus {
    background-color: var(--logo-color);
    color: var(--accent-color);
-   box-shadow: 0px 2px 2px 0px #0000001F;
-   box-shadow: 0px 1px 2px 0px #00000014;
+   box-shadow: 0px 3px 2px 0px #0000001F;
+   box-shadow: 0px 3px 2px 0px #00000014;
    box-shadow: 0px 3px 1px 0px #0000001A;
 }
 
@@ -479,14 +479,17 @@ button {
 
 .flex-elements a {
    display: block;
+
 }
 
 .flex-elements a:hover,
 .flex-elements a:focus {
-   box-shadow: 1px 4px 6px 0px #00000029;
-   box-shadow: 0px 4px 4px 0px #0000000F;
-   box-shadow: 0px 2px 4px 0px #0000001F;
+   box-shadow: 0px 1px 1px 0px #0000001F;
+   box-shadow: 0px 4px 4px 0px #00000040;
+   box-shadow: 0px 4px 4px 0px #00000040;
 }
+
+
 
 .flex-elements-text {
    padding-top: 20px;
